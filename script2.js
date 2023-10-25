@@ -225,7 +225,6 @@ function carregarPartida() {
 
  
   criarTabelaPartidas();
-  mostrarResultado();
   document.getElementById("nomesTimes").style.display = "none";
   document.getElementById("partidas").style.display = "block";
   alert("Partida carregada do LocalStorage.");
